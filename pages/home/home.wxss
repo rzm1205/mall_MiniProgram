@@ -1,1 +1,4 @@
 /* pages/home.wxss */
+.swiper{
+  width: 100%;
+}

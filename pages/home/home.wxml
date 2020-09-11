@@ -1,2 +1,12 @@
 <!--pages/home.wxml-->
-<text>pages/home.wxml</text>
+<!-- 轮播图 -->
+<!-- <swiper class="swiper" 
+        autoplay
+        circular
+        indicator-dots	
+        indicator-active-color="#ff5777"
+        >
+  <block>
+    <swiper-item  class="swiper_item">1</swiper-item>
+  </<block>
+</swiper> -->
