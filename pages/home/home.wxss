@@ -1,4 +1,7 @@
 /* pages/home.wxss */
-.swiper{
+.popular{
+  width: 750rpx;
+}
+.popular image{
   width: 100%;
 }

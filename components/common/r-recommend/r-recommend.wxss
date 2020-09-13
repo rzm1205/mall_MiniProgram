@@ -1,0 +1,21 @@
+/* components/common/r-recommend.wxss */
+.recommend{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20rpx;
+  padding:20rpx 0;
+  border-bottom: 8rpx solid #eeeeee;
+}
+.recommend_item{
+  flex: 1;
+}
+.recommend image{
+  width: 120rpx;
+  height: 120rpx;
+}
+.item_title{
+  font-size: 30rpx;
+  margin-top: 10rpx;
+  color: #555555;
+}

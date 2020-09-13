@@ -1,0 +1,13 @@
+/* components/common/r-tabbarcontent/r-tabbarcontent.wxss */
+.tabbars_content{
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.tabbars_content_item{
+  width: 50%;
+  text-align: center;
+}
+.tabbars_content_item .tabbars_content_image{
+  width: 100%;
+}

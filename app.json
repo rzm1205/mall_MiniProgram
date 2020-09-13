@@ -8,7 +8,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#ff5777",
-    "navigationBarTitleText": "购物街",
+    "navigationBarTitleText": "我的小程序",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
@@ -24,13 +24,13 @@
       },
       {
         "pagePath": "pages/category/category",
-        "text": "分类",
+        "text": "日记",
         "iconPath": "/assets/images/tabbar/category.png",
         "selectedIconPath": "/assets/images/tabbar/category_active.png"
       },
       {
         "pagePath": "pages/cart/cart",
-        "text": "购物车",
+        "text": "集中营",
         "iconPath": "/assets/images/tabbar/cart.png",
         "selectedIconPath": "/assets/images/tabbar/cart_active.png"
       },

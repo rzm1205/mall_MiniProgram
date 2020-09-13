@@ -1,0 +1,10 @@
+<!--components/common/r-tabbar/r-tabbar.wxml-->
+<view class="tabbar">
+  <block wx:for="{{list}}" wx:key="index">
+    <view class="tabbar_item" bind:tap="modifycurIndex" 
+          data-index="{{index}}"
+    >
+      <text class="tabbar_title {{curIndex == index ?'active':''}}">{{item}}</text>
+    </view>
+  </block>
+</view>

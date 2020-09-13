@@ -1,3 +1,8 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "r-swiper":"/components/common/r-swiper/r-swiper",
+    "r-recommend":"/components/common/r-recommend/r-recommend",
+    "r-tabbar":"/components/common/r-tabbar/r-tabbar",
+    "r-tabbarcontent":"/components/common/r-tabbarcontent/r-tabbarcontent"
+  }
 }

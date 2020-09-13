@@ -1,1 +1,10 @@
 /* components/common/r-swiper/r-swiper.wxss */
+.swiper{
+  width: 100%;
+  height: 380rpx;
+  background: #dddddd;
+}
+.swiper_item image{
+  width: 100%;
+  height: 100%;
+}

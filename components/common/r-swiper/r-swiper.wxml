@@ -1,2 +1,14 @@
 <!--components/common/r-swiper/r-swiper.wxml-->
-<text>components/common/r-swiper/r-swiper.wxml</text>
+
+<swiper class="swiper" 
+        autoplay
+        circular
+        indicator-dots	
+        indicator-active-color="#ff5777"
+        >
+  <block wx:for="{{list}}" wx:key="index">
+    <swiper-item  class="swiper_item">
+      <image src="{{item}}" mode="widhFix"></image>
+    </swiper-item>
+  </block>
+</swiper>

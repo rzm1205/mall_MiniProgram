@@ -1,12 +1,13 @@
 <!--pages/home.wxml-->
 <!-- 轮播图 -->
-<!-- <swiper class="swiper" 
-        autoplay
-        circular
-        indicator-dots	
-        indicator-active-color="#ff5777"
-        >
-  <block>
-    <swiper-item  class="swiper_item">1</swiper-item>
-  </<block>
-</swiper> -->
+<r-swiper list="{{banners}}"></r-swiper>
+<!-- 推荐 -->
+<r-recommend list="{{recommends}}"></r-recommend>
+<!-- 本周流行 -->
+<view class="popular">
+  <image src="/assets/images/home/recommend_bg.jpg"></image>
+</view>
+<!-- tabbar -->
+<r-tabbar class="tabbar" list="{{tabbars}}" bind:queryCurIndex="queryCurIndex"></r-tabbar>
+<!-- tabbar内容 -->
+<r-tabbarcontent list="{{tabbars_content}}"></r-tabbarcontent>

@@ -1,0 +1,9 @@
+<!--components/common/r-tabbarcontent/r-tabbarcontent.wxml-->
+<view class="tabbars_content">
+  <block wx:for="{{list}}" wx:key="index">
+    <view class="tabbars_content_item">
+      <image class="tabbars_content_image" src="{{item.cmImageUrl}}" mode="widhFix"></image>
+      <text class="tabbars_content_title">{{item.cmName}}</text>
+    </view>
+  </block>
+</view>

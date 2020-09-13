@@ -1,0 +1,19 @@
+/* components/common/r-tabbar/r-tabbar.wxss */
+.tabbar{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20rpx;
+}
+.tabbar_item{
+  flex: 1;
+}
+.tabbar_title{
+  color: #666666;
+  font-size: 36rpx;
+}
+.active{
+  color: #ff5777;
+  padding: 10rpx 4rpx;
+  border-bottom: 8rpx solid #ff5777;
+}

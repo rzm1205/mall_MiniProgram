@@ -1,4 +1,4 @@
-// components/common/r-swiper/r-swiper.js
+// components/common/r-tabbarcontent/r-tabbarcontent.js
 Component({
   /**
    * 组件的属性列表
